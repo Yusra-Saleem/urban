@@ -2,17 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { 
-  Gift, 
-  Clock, 
-  Percent, 
-  Zap, 
-  Crown, 
-  Fire,
-  ArrowRight,
-  Timer,
-  Star
-} from 'lucide-react'
+import { Gift, Clock, Percent, Zap, Crown, Siren as Fire, ArrowRight, Timer, Star } from 'lucide-react'
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver'
 import Image from 'next/image'
 
