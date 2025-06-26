@@ -9,7 +9,10 @@ import Sidebar from '@/components/Navigation/Sidebar'
 import HeroSection from '@/components/Hero/HeroSection'
 import FeaturesSection from '@/components/Features/FeaturesSection'
 import PromotionsSection from '@/components/Promotions/PromotionsSection'
+import StatsSection from '@/components/Stats/StatsSection'
+import ProcessSection from '@/components/Process/ProcessSection'
 import MenuSection from '@/components/Menu/MenuSection'
+import ChefSection from '@/components/Chef/ChefSection'
 import TestimonialGrid from '@/components/Testimonials/TestimonialGrid'
 import ReservationModal from '@/components/Reservation/ReservationModal'
 import CartSidebar from '@/components/Cart/CartSidebar'
@@ -133,7 +136,10 @@ export default function Home() {
           <HeroSection />
           <FeaturesSection />
           <PromotionsSection />
+          <StatsSection />
+          <ProcessSection />
           <MenuSection />
+          <ChefSection />
           <TestimonialGrid />
           <Footer />
         </main>
