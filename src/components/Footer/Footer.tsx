@@ -12,6 +12,7 @@ import {
   Instagram,
   Youtube,
   ArrowRight,
+  Apple,
 } from 'lucide-react'
 
 const footerLinks = {
@@ -49,8 +50,8 @@ export default function Footer() {
         {/* Newsletter Section */}
         <div className="py-12 border-b border-white/10">
           <div className="text-center mb-8">
-            <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">
-              Stay Updated with <span className="gradient-text">UrbanSpice</span>
+              <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">
+              Stay Updated with <span className="gradient-text">Urban Spice</span>
             </h3>
             <p className="text-white/80 max-w-2xl mx-auto">
               Get the latest updates on new dishes, exclusive offers, and special events
@@ -80,11 +81,11 @@ export default function Footer() {
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-12">
             {/* Brand Section */}
             <div className="lg:col-span-1">
-              <h2 className="text-2xl font-bold gradient-text mb-4">UrbanSpice</h2>
-              <p className="text-white/80 mb-6 leading-relaxed">
-                Bringing you the finest spice-infused cuisine with premium ingredients
-                and authentic flavors from around the world.
-              </p>
+            <h2 className="text-2xl font-bold gradient-text mb-4">Yusra Saleem</h2>
+            <p className="text-white/80 mb-6 leading-relaxed">
+              Bringing you the finest spice-infused cuisine with premium ingredients
+              and authentic flavors from around the world.
+            </p>
 
               {/* Contact Info */}
               <div className="space-y-3">
@@ -195,7 +196,7 @@ export default function Footer() {
                   >
                     <div className="flex items-center space-x-3">
                       <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                        <span className="text-black font-bold text-xs">📱</span>
+                  <Apple size={20} className="text-black" />
                       </div>
                       <div className="text-left">
                         <div className="text-white text-xs">Download on the</div>
@@ -211,7 +212,14 @@ export default function Footer() {
                   >
                     <div className="flex items-center space-x-3">
                       <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                        <span className="text-black font-bold text-xs">🤖</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-5 h-5 text-black"
+                  >
+                    <path d="M3 2.5v19l15-9.5L3 2.5z" />
+                  </svg>
                       </div>
                       <div className="text-left">
                         <div className="text-white text-xs">Get it on</div>
@@ -229,10 +237,10 @@ export default function Footer() {
         <div className="py-6 border-t border-white/10">
           <div className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
             <p className="text-white/60 text-sm">
-              © 2024 UrbanSpice. All rights reserved.
+              © 2024 Yusra Saleem. All rights reserved.
             </p>
             <div className="flex items-center space-x-6">
-              <span className="text-white/60 text-sm">Made with ❤️ in Seattle</span>
+              <span className="text-white/60 text-sm">Made with ❤️ by Yusra Saleem </span>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                 <span className="text-green-400 text-sm font-medium">All systems operational</span>
