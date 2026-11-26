@@ -1,61 +1,62 @@
-# Urban Clothing Store
+# Urban Clothing Storefront Platform
 
-> Contemporary urban lifestyle and apparel responsive storefront concept.
+> Contemporary streetwear apparel e-commerce web platform engineered with Next.js, TypeScript, and Tailwind CSS.
 
-## Overview
+## 1. System Overview
 
-Urban Clothing Store is a contemporary streetwear and apparel e-commerce web platform featuring dynamic lookbooks, curated seasonal drops, and responsive shopping cart flows.
+Urban Clothing Storefront is a responsive digital commerce platform built for contemporary fashion and lifestyle apparel. It delivers an intuitive browsing interface, real-time collection filtering, responsive product viewports, and local shopping bag persistence.
 
-## Key Features
+## 2. Technical Architecture
 
-- High-impact visual banner showcasing seasonal streetwear collections
-- Curated apparel product grid with size, color, and fit selectors
-- Slide-out shopping bag with real-time checkout pricing summary
-- Fast, mobile-optimized browsing experience
+```
+[ Customer Interface ]
+        │
+        ▼
+[ Next.js App Router Architecture ]
+        │
+        ├──▶ [ Curated Lookbook & Apparel Showcase ]
+        ├──▶ [ Sizing, Color, and Variant Selection Engine ]
+        └──▶ [ Persistent Cart Drawer & Order Checkout Flow ]
+```
 
-## Architecture and Technology Stack
+### Technology Stack
+- **Framework:** Next.js (React, TypeScript)
+- **Styling Engine:** Tailwind CSS, PostCSS
+- **State Architecture:** React Context & Browser Storage
+- **Code Quality:** ESLint strict configuration
 
-- **Core Technologies:** Next.js, React, TypeScript, Tailwind CSS, Lucide Icons
-- **Author:** Yusra Saleem
-- **Portfolio:** [yusrasaleem.dev](https://yusrasaleem.dev)
+## 3. Core Functional Capabilities
 
-## Getting Started
+- **Curated Lookbooks:** Dynamic image grid showcasing seasonal drops with hover effects.
+- **Variant Selector:** Interactive size, fit, and color swatches with instant stock validation.
+- **Slide-out Cart:** Persistent slide-out bag with dynamic subtotal recalculation and tax estimation.
+- **Responsive Layout:** Mobile-first architecture tested across diverse screen breakpoints.
 
-### Prerequisites
+## 4. Directory Structure
 
-Ensure you have the required runtime environment installed for this repository:
-- Node.js (v18+) for JavaScript/TypeScript projects
-- Python (3.10+) for Python services and agent workflows
+```
+urban-clothing-store/
+├── src/                      # UI views, apparel catalog, and components
+├── next.config.js            # Next.js build and image optimization settings
+├── tailwind.config.ts        # Streetwear typography and color tokens
+├── package.json              # Project dependencies
+└── tsconfig.json             # TypeScript compiler configuration
+```
 
-### Installation
-
-Clone the repository to your local machine:
+## 5. Local Setup
 
 ```bash
 git clone https://github.com/Yusra-Saleem/urban-clothing-store.git
 cd urban-clothing-store
-```
 
-Install dependencies:
-
-```bash
-# For Node / Next.js projects
 npm install
-
-# For Python projects
-pip install -r requirements.txt
-```
-
-### Running Locally
-
-```bash
-# Start local development server
 npm run dev
-
-# Or for Python entry points
-python main.py
 ```
 
-## License
+Visit [http://localhost:3000](http://localhost:3000).
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for complete details.
+## 6. Author and License
+
+- **Author:** Yusra Saleem
+- **Portfolio:** [yusrasaleem.dev](https://yusrasaleem.dev)
+- **License:** Licensed under the [MIT License](LICENSE).
